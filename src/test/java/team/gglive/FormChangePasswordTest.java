@@ -1,6 +1,5 @@
 package team.gglive;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 import java.io.IOException;

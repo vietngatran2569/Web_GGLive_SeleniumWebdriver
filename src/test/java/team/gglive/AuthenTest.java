@@ -3,7 +3,6 @@ package team.gglive;
 import junit.framework.Assert;
 import org.testng.annotations.Test;
 
-import static java.lang.Math.round;
 
 public class AuthenTest extends Base_Config {
 

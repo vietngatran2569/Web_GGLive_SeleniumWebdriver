@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-
 public class Home_Page {
     WebDriver driver;
 
@@ -17,6 +16,7 @@ public class Home_Page {
 
     @FindBy(xpath = "//a[contains(text(),'Trang chủ')]")
     private WebElement trangchu;
+
     @FindBy(xpath = "//h4[contains(text(),'Game')]")
     private WebElement game;
 
@@ -28,6 +28,9 @@ public class Home_Page {
 
     @FindBy(xpath = "//img[@id='img-chat-module']")
     private WebElement img_chat_module;
+
+    @FindBy(xpath = "//img[@id='img-chat-module']")
+    private WebElement icon_qr_code;
 
     public void clickTrangchu() {
         trangchu.click();
@@ -45,5 +48,10 @@ public class Home_Page {
         Thread.sleep(4000);
     }
 
+    public void check_click_qr_code() {
+        icon_qr_code.click();
+    }
+
+    
 
 }
