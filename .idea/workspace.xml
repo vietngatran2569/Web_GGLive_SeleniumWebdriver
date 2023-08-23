@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a402268-67a7-431b-9eec-ccac81be86b3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/team/gglive/GGDou_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +50,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -64,8 +66,8 @@
       <recent name="C:\Users\trang\Documents\NgaNgokNgek\Web_GGLive_NgaTTV" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HomeTest.check_trangchu_chua_login">
-    <configuration name="DetailChanelTest.check_click_DangXuat" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.GGDou_Test.checkSelectFilterCategory">
+    <configuration name="GGDou_Test.checkSelectFilterCategory" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Web_GGLive_NgaTTV" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +76,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="team.gglive" />
-      <option name="MAIN_CLASS_NAME" value="team.gglive.DetailChanelTest" />
-      <option name="METHOD_NAME" value="check_click_DangXuat" />
+      <option name="MAIN_CLASS_NAME" value="team.gglive.GGDou_Test" />
+      <option name="METHOD_NAME" value="checkSelectFilterCategory" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -83,7 +85,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DetailChanelTest.check_click_DieuKhoan_QuyenRiengTu" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GGDou_Test.checkverifyText" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Web_GGLive_NgaTTV" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +94,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="team.gglive" />
-      <option name="MAIN_CLASS_NAME" value="team.gglive.DetailChanelTest" />
-      <option name="METHOD_NAME" value="check_click_DieuKhoan_QuyenRiengTu" />
+      <option name="MAIN_CLASS_NAME" value="team.gglive.GGDou_Test" />
+      <option name="METHOD_NAME" value="checkverifyText" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -157,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GGDou_Test.checkSelectFilterCategory" />
+        <item itemvalue="TestNG.GGDou_Test.checkverifyText" />
         <item itemvalue="TestNG.HomeTest.check_trangchu_chua_login" />
         <item itemvalue="TestNG.HomeTest.check_trangchu_da_login" />
         <item itemvalue="TestNG.HomeTest.check_click_DangXuat" />
-        <item itemvalue="TestNG.DetailChanelTest.check_click_DangXuat" />
-        <item itemvalue="TestNG.DetailChanelTest.check_click_DieuKhoan_QuyenRiengTu" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +185,7 @@
       <workItem from="1691464251037" duration="313000" />
       <workItem from="1691464591611" duration="636000" />
       <workItem from="1691465461016" duration="5234000" />
+      <workItem from="1692175139804" duration="23215000" />
     </task>
     <servers />
   </component>
