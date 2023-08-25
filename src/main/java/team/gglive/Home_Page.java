@@ -29,7 +29,7 @@ public class Home_Page {
     @FindBy(xpath = "//img[@id='img-chat-module']")
     private WebElement img_chat_module;
 
-    @FindBy(xpath = "//img[@id='img-chat-module']")
+    @FindBy(xpath = "//img[@alt='qr-icon']")
     private WebElement icon_qr_code;
 
     public void clickTrangchu() {
@@ -50,6 +50,10 @@ public class Home_Page {
 
     public void check_click_qr_code() {
         icon_qr_code.click();
+    }
+
+    public void check_click_icon_chat(){
+        img_chat_module.click();
     }
 
     

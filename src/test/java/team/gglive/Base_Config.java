@@ -34,6 +34,10 @@ public class Base_Config {
         driver.quit();
     }
 
+//    public void switchWindow(){
+//        driver.switchTo().newWindow(WindowType.TAB);
+//    }
+
 
 
 

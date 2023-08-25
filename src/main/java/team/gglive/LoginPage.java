@@ -8,9 +8,9 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage {
     WebDriver driver;
 
-    public LoginPage(WebDriver driver){
-        this.driver=driver;
-        PageFactory.initElements(driver,this );
+    public LoginPage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
     }
 
     @FindBy(xpath = "//*[contains(text(),'Đăng nhập')]")
@@ -34,46 +34,52 @@ public class LoginPage {
     @FindBy(css = ".btn-default:nth-child(1) > .circle")
     private WebElement auth;
 
-//    @FindBy(xpath = "//a[@href=\"/bang-xep-hang\"]")
-//    private WebElement click_bxh;
+    @FindBy(xpath = "//span[contains(text(),'Đăng xuất')]")
+    private WebElement btnLogout;
 
-    public void clickBtnDangNhap(){
+    // @FindBy(xpath = "//a[@href=\"/bang-xep-hang\"]")
+    // private WebElement click_bxh;
+
+    public void clickBtnDangNhap() {
         driver.manage().window().maximize();
         btnDangnhap.click();
     }
 
-    public void sendkeySoDienThoai(String sdt){
+    public void sendkeySoDienThoai(String sdt) {
         inputSoDienThoai.sendKeys(sdt);
     }
 
-    public void clickBtnTiepTuc(){
+    public void clickBtnTiepTuc() {
         btnTieptuc.click();
     }
 
-    public void sendkeyMatKhau(String input){
+    public void sendkeyMatKhau(String input) {
         inputPassword.sendKeys(input);
     }
 
-    public void clickBtnSubmit(){
+    public void clickBtnSubmit() {
         btnSubmit.click();
     }
 
-    public String getErrorMessage(){
+    public String getErrorMessage() {
         return error_message.getText();
     }
 
-    public RegisterPage clickbtnTiepTuc_RedirectTo_RegisterPage(){
+    public RegisterPage clickbtnTiepTuc_RedirectTo_RegisterPage() {
         btnTieptuc.click();
         return new RegisterPage(driver);
     }
 
-    public void clickAuth(){
+    public void clickAuth() {
         auth.click();
     }
 
-//    public void setClick_bxh(){
-//        click_bxh.click();
-//    }
+    public void clickLogout() {
+        btnLogout.click();
+    }
 
+    // public void setClick_bxh(){
+    // click_bxh.click();
+    // }
 
 }

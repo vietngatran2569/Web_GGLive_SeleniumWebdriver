@@ -21,6 +21,8 @@ public class DetailChanel_Page {
     private WebElement btnCoBoTheoDoi;
     @FindBy(xpath = "//button[contains(.,'Chat')]")
     private WebElement btnChat;
+    @FindBy(xpath = "//span[contains(.,'Đặt đơn')]")
+    private WebElement btnOrder;
     @FindBy(xpath = "//span[contains(.,'Giới thiệu')]")
     private WebElement tabGioiThieu;
     @FindBy(xpath = "//span[contains(.,'Bảng xếp hạng')]")
@@ -72,9 +74,12 @@ public class DetailChanel_Page {
         tabClip.click();
     }
 
-    public void clickbtnDangXuat(){
+    public void clickbtnDangXuat() {
         btnDangXuat.click();
     }
 
+    public void clickbtnDatdon(){
+        btnOrder.click();
+    }
 
 }

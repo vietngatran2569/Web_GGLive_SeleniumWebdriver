@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a402268-67a7-431b-9eec-ccac81be86b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/team/gglive/GGDou_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/gglive/DetailChanel_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/gglive/DetailChanel_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/gglive/GGDou_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/gglive/GGDou_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/team/gglive/Base_Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/team/gglive/Base_Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/team/gglive/GGDou_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/team/gglive/GGDou_Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,24 +42,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/trang/Documents/NgaNgokNgek/DataDrivenFramework",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/trang/Documents/NgaNgokNgek/DataDrivenFramework&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\trang\Documents\NgaNgokNgek\Web_GGLive_NgaTTV\src\main\resources" />
@@ -66,7 +69,43 @@
       <recent name="C:\Users\trang\Documents\NgaNgokNgek\Web_GGLive_NgaTTV" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GGDou_Test.checkSelectFilterCategory">
+  <component name="RunManager" selected="TestNG.BookingTest.checkBookingUserCancel_Close">
+    <configuration name="BookingTest.checkBookingUserCancel_Close" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Web_GGLive_NgaTTV" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="team.gglive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="team.gglive" />
+      <option name="MAIN_CLASS_NAME" value="team.gglive.BookingTest" />
+      <option name="METHOD_NAME" value="checkBookingUserCancel_Close" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookingTest.checkSelectPlayer" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Web_GGLive_NgaTTV" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="team.gglive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="team.gglive" />
+      <option name="MAIN_CLASS_NAME" value="team.gglive.BookingTest" />
+      <option name="METHOD_NAME" value="checkSelectPlayer" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GGDou_Test.checkSelectFilterCategory" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Web_GGLive_NgaTTV" />
       <extension name="coverage">
@@ -103,24 +142,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeTest.check_click_DangXuat" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Web_GGLive_NgaTTV" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="team.gglive.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="team.gglive" />
-      <option name="MAIN_CLASS_NAME" value="team.gglive.HomeTest" />
-      <option name="METHOD_NAME" value="check_click_DangXuat" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HomeTest.check_trangchu_chua_login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Web_GGLive_NgaTTV" />
       <extension name="coverage">
@@ -139,31 +160,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeTest.check_trangchu_da_login" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Web_GGLive_NgaTTV" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="team.gglive.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="team.gglive" />
-      <option name="MAIN_CLASS_NAME" value="team.gglive.HomeTest" />
-      <option name="METHOD_NAME" value="check_trangchu_da_login" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BookingTest.checkBookingUserCancel_Close" />
+        <item itemvalue="TestNG.BookingTest.checkSelectPlayer" />
         <item itemvalue="TestNG.GGDou_Test.checkSelectFilterCategory" />
         <item itemvalue="TestNG.GGDou_Test.checkverifyText" />
         <item itemvalue="TestNG.HomeTest.check_trangchu_chua_login" />
-        <item itemvalue="TestNG.HomeTest.check_trangchu_da_login" />
-        <item itemvalue="TestNG.HomeTest.check_click_DangXuat" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +189,8 @@
       <workItem from="1691464591611" duration="636000" />
       <workItem from="1691465461016" duration="5234000" />
       <workItem from="1692175139804" duration="23215000" />
+      <workItem from="1692761511064" duration="1610000" />
+      <workItem from="1692865583233" duration="2786000" />
     </task>
     <servers />
   </component>
